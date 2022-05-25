@@ -1,0 +1,467 @@
+@import url('http://fonts.cdnfonts.com/css/noteworthy');
+
+
+/* for desktop screen*/
+ 
+@media screen and (min-width:960px) {
+
+
+    * 
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Noteworthy', sans-serif;
+    
+    }
+    
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-decoration: none;
+        background-image: url(./Images/aproposbg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        box-sizing: border-box;
+        max-width: 100vw;
+         
+    }
+    
+    body, ul,li,p, a {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-decoration: none;
+       
+         
+    }
+    
+    header {
+        display: flex;
+        margin-top: 20px;
+        box-sizing: border-box;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    
+    a {
+            color: beige;
+    }
+    
+    
+    header  .leftIcons li{
+    display: inline-flex;
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+    justify-content: space-evenly;
+    
+    }
+    
+    .leftIcons a img {
+       justify-content: space-between;
+        width: 100%;
+        height: 100%;
+       
+    }
+    
+    header .rightIcons li{
+        display: inline-flex;
+        margin-left: 30px;
+        width: 40px;
+        height: 40px;
+        justify-content: space-evenly;
+    }
+    
+    .rightIcons a img{
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    }
+    
+    
+    li {
+        margin-left: 10px;
+    }
+    
+    li a {
+        padding: 10px;
+    }
+    
+    header .headerLogo{
+        width: 10%;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid yellow;
+    }
+    
+    
+    header.logo{
+        align-items: center;
+        box-sizing: border-box;
+        
+    
+    }
+    
+    .logo {
+        width: 100px;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+    
+    .logo:hover{
+        transition: 2s ease-in-out;
+        transform: scale(1.2);
+    }
+
+    header a{
+        margin-right: 450px;
+        cursor: pointer;
+    }
+     
+    /* nav */
+    section nav ul{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 40%;
+        margin-right: 40%;
+    
+    }
+    
+     
+    
+    body {
+        background-color: black;
+        align-content: center;
+    }
+    
+    .articleBox {
+        align-content: center;
+        width: 600px;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 6%;
+        text-align: justify;
+     
+    }
+    
+    .textBox {
+        color: burlywood;
+        
+        width: 600px;
+        margin-top: 40px;
+        margin-right: 35%;
+        margin-left: 5%;
+        align-items: center;
+    
+    }
+    
+    .textBox p{
+        width: 100%;
+        text-align: justify;
+        margin-left: 25%;
+        margin-right: 25%;
+    
+    }
+    
+    
+    
+    
+    
+    .keven {
+        margin-top: 35px;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border:#f8b500 solid 5px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .kevenexpo {
+        margin-top: 35px;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border:#f8b500 solid 5px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    
+    h2 {
+        font-size: 40px;
+        color: #f8b500;
+        line-height: 75px;
+        margin-bottom: 30px;
+        padding-left: 145px;
+        
+    }
+    
+    p {
+        color: white;
+    }
+    
+    p span {
+        color: #f8b500;
+    }
+    
+    p #spaninfo{
+        color: darkcyan;
+    }
+    
+    body .by {
+        margin-left: 440px;
+        margin-bottom: 30px;
+    }
+    
+    body .by p{
+        color: darkgrey;
+    }
+    footer {
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 2%;
+        margin-bottom: 10%;
+        font-family: 'Noteworthy', sans-serif;
+    }
+    
+    footer p {
+        font-size: 12px;
+        color: dimgray;
+    }
+    
+    footer a {
+        font-size: 12px;
+        color: dimgray;
+    }
+    
+    footer a:hover{
+        cursor: pointer;
+        color: #f8b500;
+    }
+
+}
+
+
+
+
+ 
+    /*pour Tablette*/
+
+
+    @media screen and (max-width:960px) {
+
+
+        body {
+            margin: 0px;
+            padding: 0px;
+           
+            list-style: none;
+            text-decoration: none;
+            background-image: url(./Images/aproposbg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            box-sizing: border-box;
+            width: 100vw;
+ 
+           /*
+            width: 100%;
+            background-color: black;
+             */
+        }
+        
+        body, ul,li,p, a {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            text-decoration: none;
+           
+             
+        }
+         
+        * 
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Noteworthy', sans-serif;
+        
+        }
+        
+        
+    
+    
+        header {
+            display: flex;
+            margin-top: 20px;
+            box-sizing: border-box;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        
+        a {
+                color: beige;
+        }
+        
+ 
+        header .headerLogo{
+            width: 10%;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid yellow;
+        }
+        
+        header {
+            margin-left: 35%;
+            margin-right: 35%;
+
+        }
+
+        header.logo{
+            align-items: center;
+            box-sizing: border-box;
+
+            
+        
+        }
+        
+        .logo {
+            width: 100px;
+
+        }
+    
+        .logo:hover {
+            cursor: pointer;
+        }
+        
+        header a {
+            margin-right: auto;
+            cursor: pointer;
+        }
+    
+        a:hover{
+            cursor: pointer;
+        }
+         
+        /* nav */
+ 
+        
+       .textBox {
+ 
+            width: 100%;
+            margin-top: 40px;
+            margin-right: 10px;
+            margin-left: 10px;
+            align-items: center;
+        
+        }
+    
+        .textBox p {
+ 
+            text-align: justify;
+            padding-left: 12%;
+            padding-right: 12%;
+ 
+    
+        }
+      
+    
+        
+        h2 {
+            font-size: 30px;
+            color: #f8b500;
+            line-height: 75px;
+            margin-bottom: 30px;
+            padding-left: 10%;
+            padding-right: 10%;
+            
+        }
+        
+        h2 span{
+            color: white;
+        }
+        
+        p{
+            color: white;
+            margin-bottom: 60px;
+           
+        }
+
+
+        .keven {
+            width: 100%;
+            margin-top: 35px;
+            border-bottom-left-radius: 15px;
+            border-top-right-radius: 15px;
+            border:#f8b500 solid 5px;
+            margin-left: 0%;
+            margin-right: 15%;
+ 
+            
+ 
+        }
+        
+ 
+
+        .kevenexpo {
+            width: 100%;
+            margin-top: 35px;
+            border-bottom-left-radius: 15px;
+            border-top-right-radius: 15px;
+            border:#f8b500 solid 5px;
+            margin-left: 0%;
+            margin-right: 15%;
+        }
+        
+
+    
+        p span {
+            color: #f8b500;
+        }
+        
+        p #spaninfo{
+            color: darkcyan;
+        }
+        
+        body .by {
+            margin-left: 40%;
+            margin-bottom: 10%;
+        }
+        
+        body .by p{
+            color: darkgrey;
+        }
+    
+        footer {
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 2%;
+            margin-bottom: 10%;
+        }
+        
+        footer p {
+            font-size: 12px;
+            color: dimgray;
+        }
+        
+        footer a {
+            font-size: 12px;
+            color: dimgray;
+        }
+        
+        footer a:hover{
+            cursor: pointer;
+            color: #f8b500;
+        }
+
+        
+    }

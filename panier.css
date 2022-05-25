@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: linear-gradient(120deg, #fff562 0%, #e4c40f 100%);
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+ 
+
+}
+
+.container {
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 300px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    margin-bottom: 30px;
+ 
+}
+
+p {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.btn-retour{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-retour:hover{
+    background-color: black;
+    color: #e4c40f;
+    transition: 1s ease-out;
+}
+
+ 
